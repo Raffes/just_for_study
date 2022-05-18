@@ -5,13 +5,17 @@ import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 function App() {
   return (
     <div className="App">
 
+    {/* Comunicação Indireta */}
+    <IndiretaPai></IndiretaPai>
+
     {/* // Comunicação Direta */}
-    <DiretaPai></DiretaPai>
+    {/* <DiretaPai></DiretaPai> */}
 
     {/* //////////////////////////////////////////////////////////////////////////// */}
 
